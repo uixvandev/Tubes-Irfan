@@ -19,16 +19,16 @@ void __fastcall TFUtama::ComboBox1Change(TObject *Sender)
 {
         if(ComboBox1->Text== "BUKU")
         {
-        Edit1->Text== 10000;
+        Edit1->Text = 10000;
 
         }
         else if(ComboBox1->Text == "SPIDOL")
         {
-        Edit1->Text == 8000;
+        Edit1->Text = 8000;
         }
         else if(ComboBox1->Text == "PENA")
         {
-        Edit1->Text == 5000;
+        Edit1->Text = 5000;
         }
         else
         {
